@@ -1,23 +1,10 @@
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGRipa - Lipa Weather Telemetry & Live Farm Reports Portal</title>
   
-  <!-- Primary Meta Tags for GitHub Pages & Web -->
-  <title>AGRipa - Lipa City Smart Weather, Telemetry & Farm Reports</title>
-  <meta name="title" content="AGRipa - Lipa City Smart Weather, Telemetry & Farm Reports">
-  <meta name="description" content="Official real-time agri-meteorological weather telemetry, biosecurity advisory, and farm reporting engine for Lipa City. Sourced with LGU City Agriculture Office directives.">
-
-  <!-- Open Graph / Social Media Preview (Optimized for GitHub Pages sharing) -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="AGRipa - Lipa Weather Telemetry & Live Farm Reports">
-  <meta property="og:description" content="Real-time agricultural weather telemetry, ASF/Avian Flu virus zone tracker, and CDRRMO class suspension directives for Lipa City.">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80">
-
-  <!-- Tailwind CSS CDN -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
@@ -157,10 +144,10 @@
         <p class="text-[11px] text-white"><strong>Verified Date & Time:</strong> <span id="modalVerificationTimestamp" class="font-mono text-yellow-200 font-bold">---</span></p>
         <p class="text-[11px] text-white flex flex-col gap-1 mt-1">
           <strong>Official Social Sources:</strong> 
-          <a id="modalSourceLinkGov" href="https://www.facebook.com/VilmaSantosRectoOfficial" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 font-bold hover:text-yellow-200 flex items-center gap-1">
+          <a id="modalSourceLinkGov" href="https://www.facebook.com/VilmaSantosRectoOfficial" target="_blank" class="underline text-yellow-300 font-bold hover:text-yellow-200 flex items-center gap-1">
             📘 Gov. Vilma Santos-Recto Official FB Page
           </a>
-          <a id="modalSourceLinkPbm" href="https://www.facebook.com/pbmarcosjr" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 font-bold hover:text-yellow-200 flex items-center gap-1">
+          <a id="modalSourceLinkPbm" href="https://www.facebook.com/pbmarcosjr" target="_blank" class="underline text-yellow-300 font-bold hover:text-yellow-200 flex items-center gap-1">
             📘 President Ferdinand Marcos Jr. Official FB Page
           </a>
         </p>
@@ -328,8 +315,8 @@
         <p class="text-white"><strong>Source Authority:</strong> Gov. Vilma Santos-Recto Official FB Page / President Ferdinand Marcos Jr. Official FB Page / Lipa CDRRMO / DepEd Sec. Order No. 37</p>
         <p class="text-white"><strong>Verification Date & Time:</strong> <span id="bannerVerificationTimestamp" class="font-mono text-yellow-200 font-bold">---</span></p>
         <div class="flex flex-wrap gap-3 pt-1">
-          <a id="bannerSourceLinkGov" href="https://www.facebook.com/VilmaSantosRectoOfficial" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 font-bold hover:text-yellow-200 text-[11px]">📘 Gov. Vilma Santos-Recto FB</a>
-          <a id="bannerSourceLinkPbm" href="https://www.facebook.com/pbmarcosjr" target="_blank" rel="noopener noreferrer" class="underline text-yellow-300 font-bold hover:text-yellow-200 text-[11px]">📘 President Marcos Jr. FB</a>
+          <a id="bannerSourceLinkGov" href="https://www.facebook.com/VilmaSantosRectoOfficial" target="_blank" class="underline text-yellow-300 font-bold hover:text-yellow-200 text-[11px]">📘 Gov. Vilma Santos-Recto FB</a>
+          <a id="bannerSourceLinkPbm" href="https://www.facebook.com/pbmarcosjr" target="_blank" class="underline text-yellow-300 font-bold hover:text-yellow-200 text-[11px]">📘 President Marcos Jr. FB</a>
         </div>
       </div>
     </div>
