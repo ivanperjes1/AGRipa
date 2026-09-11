@@ -1,5 +1,3 @@
-[AGRipa.html](https://github.com/user-attachments/files/32093289/AGRipa.html)
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
